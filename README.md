@@ -19,6 +19,8 @@ This repository contains the public release of a synthetic dataset designed to s
 
 The dataset is intended for **open research, benchmarking, and educational use** and does **not** contain real patient records.
 
+Dataset hosted in IEEE DataPort: DOI 10.21227/tt32-vp70
+
 ---
 
 ## Overview
@@ -355,4 +357,4 @@ Email: `thanigachalamtamizhselvam@gmail.com`
 
 ## Acknowledgments
 
-We thank the clinician Dr. Jagadish Jeeyar who contributed domain feedback on note realism, clinical structure, and benchmark design.
+We thank the clinician for contribution to domain feedback on note realism, clinical structure, and benchmark design.
