@@ -1,0 +1,48 @@
+# Dental Notes Benchmark - EC2/Ollama runtime requirements
+# Purpose: minimal Python packages needed to run local Ollama summary generation,
+# deterministic repair, validation export, and release-quality table generation.
+#
+# Recommended environment:
+#   OS: Ubuntu 22.04 LTS or 24.04 LTS on AWS EC2
+#   Python: 3.10 or 3.11
+#   GPU instance used in project: AWS g6.xlarge or similar NVIDIA GPU instance
+#   Ollama model used in project: llama3.1:8b-instruct-q4_K_M
+#
+# Install:
+#   python3 -m venv .venv
+#   source .venv/bin/activate
+#   python -m pip install --upgrade pip
+#   pip install -r requirements-ec2-ollama.txt
+#
+# Important:
+#   Ollama itself is NOT a Python package and is not installed from this file.
+#   Install Ollama separately:
+#     curl -fsSL https://ollama.com/install.sh | sh
+#     ollama pull llama3.1:8b-instruct-q4_K_M
+#
+# Useful Ubuntu packages:
+#   sudo apt-get update
+#   sudo apt-get install -y python3 python3-venv python3-pip git curl zip unzip tmux htop
+
+# Core data processing
+pandas==2.2.3
+numpy==2.1.3
+
+# HTTP client for local Ollama API
+requests==2.32.3
+
+# Progress bars / CLI monitoring
+tqdm==4.67.1
+
+# Validation and date handling
+jsonschema==4.23.0
+python-dateutil==2.9.0.post0
+
+# Markdown/CSV table export support
+tabulate==0.9.0
+
+# Excel/table export support, optional but useful
+openpyxl==3.1.5
+
+# Runtime/resource monitoring helpers, optional
+psutil==6.1.0

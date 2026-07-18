@@ -1,0 +1,50 @@
+diagnosis_code,diagnosis_text,summary_label,scenario_family,specialty
+G47.63,"Bruxism, sleep related",sleep-related bruxism,RECALL,general_dentistry
+K00.6,Disturbances in tooth eruption,disturbance in tooth eruption,PEDRECALL,pediatric_dentistry
+K01.0,Embedded teeth,embedded tooth,SURG,oral_surgery
+K01.1,Impacted teeth,impacted tooth,SURG,oral_surgery
+K02.51,Dental caries on pit and fissure surface limited to enamel,early pit and fissure caries,PEDRECALL,pediatric_dentistry
+K02.52,Dental caries on pit and fissure surface penetrating into dentin,pit and fissure caries into dentin,PEDRECALL,pediatric_dentistry
+K02.61,Dental caries on smooth surface limited to enamel,smooth surface caries limited to enamel,PEDRECALL,pediatric_dentistry
+K02.62,Dental caries on smooth surface penetrating into dentin,smooth surface caries into dentin,PEDRECALL,pediatric_dentistry
+K02.7,Dental root caries,root caries,REST,restorative_dentistry
+K03.1,Abrasion of teeth,tooth abrasion,RECALL,general_dentistry
+K03.6,Deposits on teeth,deposits on teeth,RECALL,general_dentistry
+K03.81,Cracked tooth,cracked tooth,RECALL,general_dentistry
+K03.89,Other specified diseases of hard tissues of teeth,hard tissue sensitivity,RECALL,general_dentistry
+K04.01,Reversible pulpitis,reversible pulpitis,ENDO,endodontics
+K04.02,Irreversible pulpitis,irreversible pulpitis,ENDO,endodontics
+K04.1,Necrosis of the pulp,pulp necrosis,ENDO,endodontics
+K04.4,Acute apical periodontitis of pulpal origin,acute apical periodontitis of pulpal origin,EMERG,general_dentistry
+K04.5,Chronic apical periodontitis,chronic apical periodontitis,ENDO,endodontics
+K04.6,Periapical abscess with sinus,periapical abscess with sinus,EMERG,general_dentistry
+K04.7,Periapical abscess without sinus,periapical abscess without sinus,EMERG,general_dentistry
+K04.8,Radicular cyst,radicular cyst,ENDO,endodontics
+K05.00,"Acute gingivitis, plaque induced",acute plaque-induced gingivitis,PERIO,periodontics
+K05.10,"Chronic gingivitis, plaque induced",chronic plaque-induced gingivitis,RECALL,general_dentistry
+K05.312,"Chronic periodontitis, localized, moderate",localized moderate chronic periodontitis,PERIO,periodontics
+K05.313,"Chronic periodontitis, localized, severe",localized severe chronic periodontitis,PERIO,periodontics
+K05.322,"Chronic periodontitis, generalized, moderate",generalized moderate chronic periodontitis,PERIO,periodontics
+K05.323,"Chronic periodontitis, generalized, severe",generalized severe chronic periodontitis,PERIO,periodontics
+K05.5,Other periodontal diseases,other periodontal disease,SURG,oral_surgery
+K06.0,Gingival recession,gingival recession,PERIO,periodontics
+K08.3,Retained dental root,retained root,SURG,oral_surgery
+K08.42,Partial loss of teeth due to periodontal diseases,partial loss of teeth due to periodontal disease,PROSTHO,prosthodontics
+K08.43,Partial loss of teeth due to caries,partial loss of teeth due to caries,PROSTHO,prosthodontics
+K08.49,"Partial loss of teeth due to other specified cause, unspecified class",partial tooth loss status after prior extraction,IMPLANT,implant_dentistry
+K08.50,"Unsatisfactory restoration of tooth, unspecified",unsatisfactory restoration,PROSTHO,prosthodontics
+K08.51,Open restoration margins of tooth,open restoration margin,PROSTHO,prosthodontics
+K08.531,Fractured dental restorative material with loss of material,fractured restoration with loss of material,PROSTHO,prosthodontics
+K08.59,Other unsatisfactory restoration of existing tooth,other unsatisfactory restoration,PROSTHO,prosthodontics
+K12.2,Cellulitis and abscess of mouth,cellulitis and abscess of mouth,EMERG,general_dentistry
+L03.90,Cellulitis: unspecified,cellulitis,EMERG,general_dentistry
+M27.61,Osseointegration failure of dental implant,osseointegration failure of implant,IMPLANT,implant_dentistry
+M27.62,Post-osseointegration biological failure of implant,biological failure of implant,IMPLANT,implant_dentistry
+M27.63,Post-osseointegration mechanical failure of implant,mechanical failure of implant,IMPLANT,implant_dentistry
+M27.69,Other endosseous dental implant failure,other implant failure,IMPLANT,implant_dentistry
+S01.512A,Laceration without foreign body of oral cavity,oral cavity laceration,PEDTRAUMA,pediatric_dentistry
+S02.5XXA,Fracture of tooth (traumatic): initial encounter closed,traumatic tooth fracture,PEDTRAUMA,pediatric_dentistry
+S03.2XXA,Dislocation of tooth: initial encounter,tooth dislocation,PEDTRAUMA,pediatric_dentistry
+S09.93XA,Unspecified injury of face: initial encounter,facial injury,PEDTRAUMA,pediatric_dentistry
+Z01.20,Encounter for routine dental examination,routine dental examination,RECALL,general_dentistry
+Z01.21,Encounter for dental examination with abnormal findings,dental examination with abnormal findings,RECALL,general_dentistry

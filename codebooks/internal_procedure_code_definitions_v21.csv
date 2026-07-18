@@ -1,0 +1,32 @@
+procedure_code_system,procedure_code,procedure_text,procedure_category,definition
+DPO_INTERNAL_V1,PROC_BWXR,Bitewing radiograph,diagnostic,Bitewing imaging for proximal caries/restoration assessment
+DPO_INTERNAL_V1,PROC_CEMENT_RESEAT,Recementation of existing crown,prosthodontics,Recementation or reseat of crown
+DPO_INTERNAL_V1,PROC_COMPOSITE,Composite restoration,restorative,Direct composite restoration for carious or defective tooth structure
+DPO_INTERNAL_V1,PROC_CROWN_PREP,Crown preparation,prosthodontics,Tooth preparation for full-coverage restoration
+DPO_INTERNAL_V1,PROC_EMERG_EVAL,Emergency evaluation,emergency,Focused evaluation for urgent complaint
+DPO_INTERNAL_V1,PROC_EXAM,Periodic oral evaluation,diagnostic,Recall/periodic oral examination
+DPO_INTERNAL_V1,PROC_EXT_SIMPLE,Simple extraction,oral_surgery,Extraction of erupted tooth
+DPO_INTERNAL_V1,PROC_EXT_SURGICAL,Surgical extraction,oral_surgery,Surgical removal of tooth
+DPO_INTERNAL_V1,PROC_FLEX_SPLINT,Flexible splint,trauma,Flexible stabilization splint for traumatized teeth
+DPO_INTERNAL_V1,PROC_FLUORIDE,Topical fluoride varnish,preventive,Topical fluoride application
+DPO_INTERNAL_V1,PROC_IMPLANT_CHECK,Implant follow-up evaluation,implant,Follow-up assessment of implant site
+DPO_INTERNAL_V1,PROC_IMPRESSION,Impression or digital scan,prosthodontics,Impression or digital scan for prosthetic fabrication
+DPO_INTERNAL_V1,PROC_I_AND_D,Incision and drainage,emergency,Incision and drainage of odontogenic swelling
+DPO_INTERNAL_V1,PROC_LOCAL_ANES,Local anesthesia,anesthesia,Local infiltration or block anesthesia for dental treatment
+DPO_INTERNAL_V1,PROC_OCCLUSAL_ADJ,Occlusal adjustment,restorative,Minor adjustment of occlusion after restoration
+DPO_INTERNAL_V1,PROC_OCCLUSION_CHECK,Occlusion check,prosthodontics,Assessment of implant or prosthetic occlusion
+DPO_INTERNAL_V1,PROC_OHI,Oral hygiene instruction,preventive,"Counseling on brushing, flossing, and interdental cleaning"
+DPO_INTERNAL_V1,PROC_PA_XR,Periapical radiograph,diagnostic,Periapical imaging of a specific tooth
+DPO_INTERNAL_V1,PROC_PERIAPICAL_XR,Periapical radiograph,diagnostic,Periapical imaging for trauma or endodontic review
+DPO_INTERNAL_V1,PROC_PERIO_MAINT,Periodontal maintenance,periodontics,Periodontal maintenance/debridement visit
+DPO_INTERNAL_V1,PROC_POSTOP,Post-operative instructions,oral_surgery,Post-operative counseling and precautions
+DPO_INTERNAL_V1,PROC_PRESCRIBE,Prescription management,emergency,Medication prescribing/review for urgent care
+DPO_INTERNAL_V1,PROC_PROPHY,Dental prophylaxis,preventive,Routine prophylaxis/cleaning
+DPO_INTERNAL_V1,PROC_PULPOTOMY,Emergency pulpotomy,endodontics,Pulpotomy for urgent pain control
+DPO_INTERNAL_V1,PROC_PULP_TEST,Pulp vitality testing,endodontics,Thermal/electric pulp testing
+DPO_INTERNAL_V1,PROC_RAD_REVIEW,Radiographic review,diagnostic,Review of available radiographs
+DPO_INTERNAL_V1,PROC_REPOSITION,Repositioning of injured tooth,trauma,Repositioning of displaced traumatized tooth
+DPO_INTERNAL_V1,PROC_SEALANT,Sealant placement,preventive,Placement of pit and fissure sealant
+DPO_INTERNAL_V1,PROC_TEMP_CROWN,Provisional crown,prosthodontics,Placement or adjustment of provisional crown
+DPO_INTERNAL_V1,PROC_TEMP_REST,Temporary restoration,endodontics,Temporary sealing/restoration
+DPO_INTERNAL_V1,PROC_TRAUMA_EVAL,Dental trauma evaluation,emergency,Focused evaluation of traumatic dental injury
