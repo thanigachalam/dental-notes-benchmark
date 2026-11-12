@@ -69,4 +69,4 @@ The script refuses incomplete mappings and otherwise **does not generate** `temp
 
 ### Dependencies / provenance
 
-Python 3.10+ recommended. `requirements.txt` contains analysis dependencies and does **not** alter the base generation environment. Freeze installed versions with `pip freeze > dental_nlp_benchmark_evaluation/outputs/requirements_lock.txt` after successful runs. Preserve original scripts and git revision ID in the experiment notes.
+Python 3.10+ recommended. `requirements.txt` contains analysis dependencies

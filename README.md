@@ -192,14 +192,15 @@ Each record may include:
 ## Files Included
 
 ### Main dataset
-- `data/dentalnote_bench_20000_icd10_internalproc_v20.jsonl`
-- `data/dentalnote_bench_20000_icd10_internalproc_v20_stats.json`
+- Download the full dataset from IEEE Data Port
+
+DOI:10.21227/tt32-vp70
+
+https://ieee-dataport.org/documents/synthetic-dental-clinical-notes-dataset-dental-nlp-benchmarking
 
 ### Codebooks
 - `codebooks/icd10_cm_diagnosis_mappings_v20.csv`
-- `codebooks/icd10_cm_diagnosis_mappings_v20.md`
 - `codebooks/internal_procedure_code_definitions_v20.csv`
-- `codebooks/internal_procedure_code_definitions_v20.md`
 
 ### Generator / scripts
 - `generators/generate_dentalnote_bench_20000_icd10_internalproc_v20.py`
@@ -307,8 +308,7 @@ print(df.shape)
 ## License
 
 This repository uses a **dual-license model**:
-- **Dataset and documentation:** CC BY 4.0
-- **Code and scripts:** MIT
+- **Dataset, Code, Script and documentation:** CC BY 4.0
 
 See the [`LICENSE`](LICENSE) file for details.
 
@@ -336,9 +336,9 @@ If you use this dataset, please cite:
 ## Companion Paper
 
 **Title:**  
-*A Synthetic Benchmark Dataset for Dental Clinical Note Extraction and Summarization*
+*Synthetic Dental Clinical Notes Dataset for Dental NLP Benchmarking (SDCN-DNLP)*
 
-This repository accompanies the dataset release and supporting manuscript.
+This repository accompanies the dataset generation script and evaluation release and supporting manuscript.
 
 ---
 
