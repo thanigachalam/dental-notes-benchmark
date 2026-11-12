@@ -1,0 +1,7 @@
+Task,Model,Published macro-F1,Prompt-ID-disjoint macro-F1,Decline (percentage points)
+Diagnosis,Rule-based,0.91763,0.88940,2.823
+Diagnosis,TF-IDF,0.99893,0.95741,4.152
+Diagnosis,ClinicalBERT,1.00000,0.95918,4.082
+Procedure,Rule-based,0.95842,0.86784,9.058
+Procedure,TF-IDF,1.00000,0.90323,9.677
+Procedure,ClinicalBERT,1.00000,0.90323,9.677

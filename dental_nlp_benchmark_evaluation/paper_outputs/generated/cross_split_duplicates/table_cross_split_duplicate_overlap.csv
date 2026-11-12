@@ -1,0 +1,5 @@
+Threshold,Detected input-note pairs,Published cross-split,Prompt-disjoint cross-split
+0.80,31,11,13
+0.85,11,3,6
+0.90,1,0,1
+0.95,1,0,1

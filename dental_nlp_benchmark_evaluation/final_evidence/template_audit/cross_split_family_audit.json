@@ -1,0 +1,145 @@
+{
+  "dataset_records": 20000,
+  "splits": {
+    "published": {
+      "manifest": "dental_nlp_benchmark_evaluation/outputs/splits/published_70_15_15.csv",
+      "id_field": "note_id",
+      "split_field": "split",
+      "counts": {
+        "train": 14000,
+        "test": 3000,
+        "validation": 3000
+      },
+      "missing_dataset_ids": 0,
+      "unknown_manifest_ids": 0,
+      "unique_prompt_ids": {
+        "train": 120,
+        "validation": 120,
+        "test": 120
+      },
+      "unique_families": {
+        "train": 10,
+        "validation": 10,
+        "test": 10
+      },
+      "overlap": {
+        "train_vs_validation": {
+          "shared_source_prompt_ids": 120,
+          "shared_scenario_families": 10,
+          "shared_family_names": [
+            "P_EMERG_ABSCESS",
+            "P_ENDO_CONSULT",
+            "P_HYGIENE_RECALL",
+            "P_IMPLANT_FU",
+            "P_ORALSURG_EXT",
+            "P_PED_RECALL",
+            "P_PED_TRAUMA",
+            "P_PERIO_MAINT",
+            "P_PROSTHO_CROWN",
+            "P_RESTORATIVE_CARIES"
+          ]
+        },
+        "train_vs_test": {
+          "shared_source_prompt_ids": 120,
+          "shared_scenario_families": 10,
+          "shared_family_names": [
+            "P_EMERG_ABSCESS",
+            "P_ENDO_CONSULT",
+            "P_HYGIENE_RECALL",
+            "P_IMPLANT_FU",
+            "P_ORALSURG_EXT",
+            "P_PED_RECALL",
+            "P_PED_TRAUMA",
+            "P_PERIO_MAINT",
+            "P_PROSTHO_CROWN",
+            "P_RESTORATIVE_CARIES"
+          ]
+        },
+        "validation_vs_test": {
+          "shared_source_prompt_ids": 120,
+          "shared_scenario_families": 10,
+          "shared_family_names": [
+            "P_EMERG_ABSCESS",
+            "P_ENDO_CONSULT",
+            "P_HYGIENE_RECALL",
+            "P_IMPLANT_FU",
+            "P_ORALSURG_EXT",
+            "P_PED_RECALL",
+            "P_PED_TRAUMA",
+            "P_PERIO_MAINT",
+            "P_PROSTHO_CROWN",
+            "P_RESTORATIVE_CARIES"
+          ]
+        }
+      }
+    },
+    "prompt_disjoint": {
+      "manifest": "dental_nlp_benchmark_evaluation/outputs/splits/prompt_disjoint.csv",
+      "id_field": "note_id",
+      "split_field": "split",
+      "counts": {
+        "test": 3017,
+        "train": 13971,
+        "validation": 3012
+      },
+      "missing_dataset_ids": 0,
+      "unknown_manifest_ids": 0,
+      "unique_prompt_ids": {
+        "train": 84,
+        "validation": 18,
+        "test": 18
+      },
+      "unique_families": {
+        "train": 10,
+        "validation": 9,
+        "test": 9
+      },
+      "overlap": {
+        "train_vs_validation": {
+          "shared_source_prompt_ids": 0,
+          "shared_scenario_families": 9,
+          "shared_family_names": [
+            "P_EMERG_ABSCESS",
+            "P_ENDO_CONSULT",
+            "P_HYGIENE_RECALL",
+            "P_ORALSURG_EXT",
+            "P_PED_RECALL",
+            "P_PED_TRAUMA",
+            "P_PERIO_MAINT",
+            "P_PROSTHO_CROWN",
+            "P_RESTORATIVE_CARIES"
+          ]
+        },
+        "train_vs_test": {
+          "shared_source_prompt_ids": 0,
+          "shared_scenario_families": 9,
+          "shared_family_names": [
+            "P_ENDO_CONSULT",
+            "P_HYGIENE_RECALL",
+            "P_IMPLANT_FU",
+            "P_ORALSURG_EXT",
+            "P_PED_RECALL",
+            "P_PED_TRAUMA",
+            "P_PERIO_MAINT",
+            "P_PROSTHO_CROWN",
+            "P_RESTORATIVE_CARIES"
+          ]
+        },
+        "validation_vs_test": {
+          "shared_source_prompt_ids": 0,
+          "shared_scenario_families": 8,
+          "shared_family_names": [
+            "P_ENDO_CONSULT",
+            "P_HYGIENE_RECALL",
+            "P_ORALSURG_EXT",
+            "P_PED_RECALL",
+            "P_PED_TRAUMA",
+            "P_PERIO_MAINT",
+            "P_PROSTHO_CROWN",
+            "P_RESTORATIVE_CARIES"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+manifest,partition,records,all_rows,missing_ids,unknown_ids,duplicate_ids,prompt_groups_crossing_splits,manifest_valid
+prompt_disjoint.csv,train,13971,20000,0,0,0,0,True
+prompt_disjoint.csv,validation,3012,20000,0,0,0,0,True
+prompt_disjoint.csv,test,3017,20000,0,0,0,0,True
+published_70_15_15.csv,train,14000,20000,0,0,0,120,True
+published_70_15_15.csv,validation,3000,20000,0,0,0,120,True
+published_70_15_15.csv,test,3000,20000,0,0,0,120,True

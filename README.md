@@ -19,8 +19,6 @@ This repository contains the public release of a synthetic dataset designed to s
 
 The dataset is intended for **open research, benchmarking, and educational use** and does **not** contain real patient records.
 
-Dataset hosted in IEEE DataPort: DOI 10.21227/tt32-vp70
-
 ---
 
 ## Overview
@@ -41,7 +39,7 @@ The design emphasizes:
 
 ## Current Release
 
-**Version:** `v2.1`  
+**Version:** `v2.0`  
 **Format:** `JSONL` (one JSON object per line)
 
 ### Dataset summary
@@ -194,11 +192,14 @@ Each record may include:
 ## Files Included
 
 ### Main dataset
-- `data/dentalnote_bench_20000_icd10_internalproc_v21.jsonl`
+- `data/dentalnote_bench_20000_icd10_internalproc_v20.jsonl`
+- `data/dentalnote_bench_20000_icd10_internalproc_v20_stats.json`
 
 ### Codebooks
 - `codebooks/icd10_cm_diagnosis_mappings_v20.csv`
+- `codebooks/icd10_cm_diagnosis_mappings_v20.md`
 - `codebooks/internal_procedure_code_definitions_v20.csv`
+- `codebooks/internal_procedure_code_definitions_v20.md`
 
 ### Generator / scripts
 - `generators/generate_dentalnote_bench_20000_icd10_internalproc_v20.py`
@@ -264,7 +265,7 @@ This dataset should **not** be used as:
 import json
 
 records = []
-with open("data/dentalnote_bench_20000_icd10_internalproc_v21.jsonl", "r", encoding="utf-8") as f:
+with open("data/dentalnote_bench_20000_icd10_internalproc_v20.jsonl", "r", encoding="utf-8") as f:
     for line in f:
         records.append(json.loads(line))
 
@@ -278,7 +279,7 @@ print(records[0]["note_id"])
 import pandas as pd
 
 df = pd.read_json(
-    "data/dentalnote_bench_20000_icd10_internalproc_v21.jsonl",
+    "data/dentalnote_bench_20000_icd10_internalproc_v20.jsonl",
     lines=True
 )
 print(df.shape)
@@ -324,8 +325,8 @@ If you use this dataset, please cite:
   author       = {Thanigachalam Tamizh Selvam},
   title        = {dental-notes-benchmark: A Synthetic Benchmark Dataset for Dental Clinical Note Extraction and Summarization},
   year         = {2026},
-  version      = {v2.1},
-  publisher    = {IEEE DataPort},
+  version      = {v2.0},
+  publisher    = {GitHub / Zenodo / IEEE DataPort},
   url          = {https://github.com/thanigachalam/dental-notes-benchmark}
 }
 ```
@@ -357,4 +358,4 @@ Email: `thanigachalamtamizhselvam@gmail.com`
 
 ## Acknowledgments
 
-We thank the clinician for contribution to domain feedback on note realism, clinical structure, and benchmark design.
+We thank the dental clinicians and reviewers who contributed domain feedback on note realism, clinical structure, and benchmark design.

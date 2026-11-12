@@ -1,0 +1,13 @@
+task,split,model,test_macro_f1,evidence_status
+Diagnosis,Published,Rule-based,0.91763,REPORTED_UNVERIFIED
+Diagnosis,Published,TF-IDF,0.99893,REPORTED_UNVERIFIED
+Diagnosis,Published,ClinicalBERT,1.00000,REPORTED_UNVERIFIED
+Diagnosis,Prompt-ID-disjoint,Rule-based,0.88940,REPORTED_UNVERIFIED
+Diagnosis,Prompt-ID-disjoint,TF-IDF,0.95741,REPORTED_UNVERIFIED
+Diagnosis,Prompt-ID-disjoint,ClinicalBERT,0.95918,REPORTED_UNVERIFIED
+Procedure,Published,Rule-based,0.95842,REPORTED_UNVERIFIED
+Procedure,Published,TF-IDF,1.00000,REPORTED_UNVERIFIED
+Procedure,Published,ClinicalBERT,1.00000,REPORTED_UNVERIFIED
+Procedure,Prompt-ID-disjoint,Rule-based,0.86784,REPORTED_UNVERIFIED
+Procedure,Prompt-ID-disjoint,TF-IDF,0.90323,REPORTED_UNVERIFIED
+Procedure,Prompt-ID-disjoint,ClinicalBERT,0.90323,REPORTED_UNVERIFIED

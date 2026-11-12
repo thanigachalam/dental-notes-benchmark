@@ -1,0 +1,828 @@
+{
+  "research_project": "SDCN-DNLP v21",
+  "dataset_records": 20000,
+  "dataset_release_modified": false,
+  "file_count": 164,
+  "files": [
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/01_dataset_audit.py",
+      "bytes": 2739,
+      "sha256": "071c63c567be2117ca99312aa1c934c625549f3fab226fe524e505dcf46ae871"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/02_build_splits.py",
+      "bytes": 3038,
+      "sha256": "de885fcd336ec506052844ed9bbb74705c28ad45fc6a9588763b28cc205e53fa"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/03_duplicate_analysis.py",
+      "bytes": 3372,
+      "sha256": "45185042d7215c2d46bb2d4a48f2620aed8c141cdbcaec8ec73a2bccec2d0176"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/04_baseline_benchmark.py",
+      "bytes": 4381,
+      "sha256": "ccb8faf7a5234b646d3de8afefa2a84db79ea4b6edd1df848491fa5a61728037"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/05_check_split_integrity.py",
+      "bytes": 1270,
+      "sha256": "bd6133f1ec92c653d2d72df99bb36aa8f551a88f1f7bbcb2c8bf49a4308f4363"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/06_generate_paper_figures_tables.py",
+      "bytes": 18033,
+      "sha256": "f0c2644b8bff5c9d969c8276788826c6528505ba580fd5ea7dd2148cef5eae27"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/07_baseline_integrity_audit.py",
+      "bytes": 5688,
+      "sha256": "4d9dc8cddc316d01ab7b7f092ad5926f5c446606a7f92e6e619cdac8a5430f32"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/08_cross_split_duplicate_audit.py",
+      "bytes": 3151,
+      "sha256": "7d8f726aaf0c505d551d0d2c89136f3d3c0c0d9fa8e237584655997602f75207"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/09_template_provenance_audit.py",
+      "bytes": 3438,
+      "sha256": "6a4a60eeedf9f92a28264721fce0238c5bddf448254526fe111e384641a7757b"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/10_clinicalbert_benchmark.py",
+      "bytes": 9974,
+      "sha256": "edde079435344657748c1c1af0ca967ab3659b0ce29c58bcf2e25b24b6f0208c"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/10_clinicalbert_benchmark_beforereportingfix.py",
+      "bytes": 9929,
+      "sha256": "d81f11e59c2b1abaec77535da062c19c79e7cfb02ea7aa6b6812f1436659a360"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/10_clinicalbert_benchmark_orginal.py",
+      "bytes": 8942,
+      "sha256": "7dcf458cdb91a50dc8f8c02ecaa31e79b231cfd10dc8681567b3ab38d6059eb6"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/11_generation_provenance_audit.py",
+      "bytes": 2751,
+      "sha256": "7c610f8e02e553543148ac0c4d53285bdb8c7ee65a21b54f1f5c96a8d9619ec1"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/12_release_integrity_audit.py",
+      "bytes": 3783,
+      "sha256": "3c277e2f9acf81cff30b4e10a751c7d81119952c77174aa822a6cec3ba684773"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/13_plot_cross_split_duplicate_overlap.py",
+      "bytes": 3636,
+      "sha256": "230600f8f316e057d6344255725648235ff23b59c42ca076049611d896378381"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/14_label_vocabulary_audit.py",
+      "bytes": 3668,
+      "sha256": "5aa17413a112f4108dc363cea58c49aee0f8d42dea95300287a5cb67fe5da940"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/15_generation_family_audit.py",
+      "bytes": 3927,
+      "sha256": "bcae1da6d815d9b9ff152c985d3f2fecd9238318b62b49417738fec6fca18df6"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/16_cross_split_family_audit.py",
+      "bytes": 6852,
+      "sha256": "ac4ed907ac61bda5e954172c2563a4cfc606ff99992eca9efe99fb2925ba76ed"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/17_label_template_audit.py",
+      "bytes": 8928,
+      "sha256": "b72ae057c1dfe632df7015c1320982c2dd95edef3cc50b9113c027d6df043686"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/18_generate_paper_tables_figures.py",
+      "bytes": 5681,
+      "sha256": "a2c63970287f3e07aa19796857a8c3d4764f5090708fdda7df76645a3d5e8d76"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/19_verify_benchmark_evidence.py",
+      "bytes": 5208,
+      "sha256": "76dfb92229bc56b7236241f43b8a54b245d298a42448226e75be7c26567cc3ea"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/20_corrected_label_exposure_audit.py",
+      "bytes": 3295,
+      "sha256": "f89d09ed4364df0a127f55375ff6cc25f4b9df4c4bdf9412c1a19b01125c81b9"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/__pycache__/10_clinicalbert_benchmark.cpython-311.pyc",
+      "bytes": 26911,
+      "sha256": "8aac912a73492dc5fbfd431dc9d9ef0ce9556e3cca6bc5b11b7c308ceab89aac"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/__pycache__/common.cpython-311.pyc",
+      "bytes": 5704,
+      "sha256": "521641ef6fdde74a5ca5e3d4fde480897142f48e07e8147e9a6c55a529ebdb7f"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/__pycache__/common.cpython-312.pyc",
+      "bytes": 4466,
+      "sha256": "bdfd39f5e369799c0c8d3886cda2c3f8f4d9b479a250bf69e37af0894fd0bc49"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/scripts/common.py",
+      "bytes": 1716,
+      "sha256": "c4a9e4b3ae0256980f2104676272fd6b682c74414ff865b75493ff3bb3dff0b6"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/audit/audit_report.json",
+      "bytes": 4461,
+      "sha256": "43b2cd42557d6262b0bf34aa91c05398f9578d189534c22b67a27fd240042021"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/audit/diagnoses.csv",
+      "bytes": 601,
+      "sha256": "a168358673c39bf29631986f01c4b7f0b51eaf865c116e44deec5f14b6f8be8e"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/audit/duplicate_note_ids.csv",
+      "bytes": 9,
+      "sha256": "ad7b065084f7ba829679cc63abb89af1742c0506ab2c0decabdcfb14c798628c"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/audit/field_states.csv",
+      "bytes": 2191,
+      "sha256": "08469f1b676c162f26cb052b9040bff44b18249f8b0960ed331ca811f1446ad2"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/audit/procedures.csv",
+      "bytes": 671,
+      "sha256": "a4d78583f9103da55614a6bc3eff5d663cc5391d0194a19db5364e1f6c1d8c1c"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/audit/source_prompts.csv",
+      "bytes": 2809,
+      "sha256": "de7ab21016c506284ffa7a38be82ec2935e62749c7ec80ca5928f079d3acf9e6"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/audit/specialties.csv",
+      "bytes": 192,
+      "sha256": "23491cd15dbb1aeea2119aadfef9f4be1d218569ae7c80e6965fa2df47b0f55d"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/audit/splits.csv",
+      "bytes": 54,
+      "sha256": "dea31033550d1f518cb0c084b4f11f0befde2f08ea5b521a0e1460b7f10c083e"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/baseline_integrity/baseline_integrity_report.json",
+      "bytes": 2909,
+      "sha256": "46a4ab0d07080594d94a8702095f5f56d6e0b104bd2fcec83a070b134f186358"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/baseline_integrity/baseline_integrity_summary.csv",
+      "bytes": 477,
+      "sha256": "99768489dd3bc97c2c13a1fd3e9f0425061e494a679143eeedf3011d162ad472"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/baseline_integrity/input_feature_sample_metadata.csv",
+      "bytes": 356,
+      "sha256": "e9d837ca29a2573ae5f257dc8f894aee74bfb42c2d7358037b613bc8888097bc"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/baseline_integrity/label_coverage.csv",
+      "bytes": 9690,
+      "sha256": "6c6b802aba445b6552e030cefdeeef5c1bf780b0c8924442a0d25e1cf368a5c4"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/benchmarks/baseline_config.json",
+      "bytes": 449,
+      "sha256": "b68322ba95e2bce2d2e0402d3a61fa5f319403bbaa2aa88deff1391d430fb861"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/benchmarks/baseline_results.csv",
+      "bytes": 1330,
+      "sha256": "b077ad13233fe4d3af8983801a42738adfaadda8c93fa17f8da15a5395c9205d"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/ec2_smoke_diagnosis/clinicalbert_per_label_metrics.csv",
+      "bytes": 1267,
+      "sha256": "e4aa39c9f495d0bdbe5220f547edd63f4e49f7747390014577cc833f39e0cc7f"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/ec2_smoke_diagnosis/clinicalbert_results.csv",
+      "bytes": 688,
+      "sha256": "8fbcec94732d7f31d43370fad0a34203d523feeb74d3d8e6f832bc5117a6da44"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/ec2_smoke_diagnosis/clinicalbert_results.json",
+      "bytes": 845,
+      "sha256": "ed9c8c0f622c0c5b14cf5716d17957a96acfc41631b4b6b3b5da527c7fbea71b"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/ec2_smoke_diagnosis/clinicalbert_run_config.json",
+      "bytes": 1433,
+      "sha256": "5a4a14e1e40dd686564dd02f4e5fdc8e36f7dfa64a10db6d133216610a210f9b"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/ec2_smoke_diagnosis/label_vocabulary.json",
+      "bytes": 364,
+      "sha256": "74b09787a43c98cdd315960de0b524b620ba536731876473fe26509e3a3f678c"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/ec2_smoke_diagnosis/training_history.csv",
+      "bytes": 109,
+      "sha256": "38fe7e8c2186408b48b584d787889b67eedb74c44c9cad1f816db6a3c31c5e27"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_prompt_disjoint_diagnosis/clinicalbert_per_label_metrics.csv",
+      "bytes": 1282,
+      "sha256": "e17e1a4c24c9f7306cc9116b5e7ac002701e35025557ec2be5203788c7798dc5"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_prompt_disjoint_diagnosis/clinicalbert_results.csv",
+      "bytes": 539,
+      "sha256": "52eb546e5e50bbb45bc379907f76bd969377ac60d2f054a6e7104dbf85f0a171"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_prompt_disjoint_diagnosis/clinicalbert_results.json",
+      "bytes": 696,
+      "sha256": "374354b32ea678c4ff0259423c979b9564e23d611052f3af8ff017e01e66df72"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_prompt_disjoint_diagnosis/clinicalbert_run_config.json",
+      "bytes": 989,
+      "sha256": "0b7241f11915954fe6cedf557da89d2aba8307b45abfc6c05eb52840e1d20342"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_prompt_disjoint_diagnosis/label_vocabulary.json",
+      "bytes": 588,
+      "sha256": "fe193be2bc6ef22897e5533499c95d1d19996994d687343c51a31b1e27a7fa8d"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_prompt_disjoint_diagnosis/training_history.csv",
+      "bytes": 173,
+      "sha256": "456197f40889c72ebe154669792337adff2101fb2c16b50c24f18719ae294cec"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_prompt_disjoint_procedure/clinicalbert_per_label_metrics.csv",
+      "bytes": 1106,
+      "sha256": "5920caa705b225045ac22a96dce0d71ca556638e95d6a57bd60f948fecaf0a47"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_prompt_disjoint_procedure/clinicalbert_results.csv",
+      "bytes": 539,
+      "sha256": "a43833913dd6e0fcf1d64c743999c93aba34ded483c3ddb4ecd2471de3d2a105"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_prompt_disjoint_procedure/clinicalbert_results.json",
+      "bytes": 696,
+      "sha256": "a3a28a49a60c649e9932af98d5621e3a5b31f09b858da5d6b633e14e503c3aa0"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_prompt_disjoint_procedure/clinicalbert_run_config.json",
+      "bytes": 989,
+      "sha256": "056dbec54c7b44223024cd11e2ef5e17168c1704d26946354e708a8dd77d4c5d"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_prompt_disjoint_procedure/label_vocabulary.json",
+      "bytes": 630,
+      "sha256": "d2349794ffa002c1683d59b0a06744e647644951cc526c9e07a1a1a26e1fae29"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_prompt_disjoint_procedure/training_history.csv",
+      "bytes": 160,
+      "sha256": "7dd80e9af611879e5fcb0e69d8f737e5cbfde46baccbabd24def4fd395e967dd"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_published_diagnosis/clinicalbert_per_label_metrics.csv",
+      "bytes": 1279,
+      "sha256": "43a7de101430477b676b9f3191a4bc252ef422244e6f6eda2f55e27820e15f88"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_published_diagnosis/clinicalbert_results.csv",
+      "bytes": 497,
+      "sha256": "8f0c32bf89e8bd71166464d60d8d30e1823da697ce44706096ed37ce6da9ba2b"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_published_diagnosis/clinicalbert_results.json",
+      "bytes": 654,
+      "sha256": "51a1513d7b32552a57c3c4422ce5278437d8573d503e6dd24eeea03c99bcbe2e"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_published_diagnosis/clinicalbert_run_config.json",
+      "bytes": 992,
+      "sha256": "4d1c854e8a345ed98443e337563dd092bcf9df14139127b03739c9f5f63f621f"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_published_diagnosis/label_vocabulary.json",
+      "bytes": 588,
+      "sha256": "fe193be2bc6ef22897e5533499c95d1d19996994d687343c51a31b1e27a7fa8d"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_published_diagnosis/training_history.csv",
+      "bytes": 172,
+      "sha256": "4b954a6efbd9f0522f7009c29194715fd0169daaf2b835217b7e67996dc3eb85"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_published_procedure/clinicalbert_per_label_metrics.csv",
+      "bytes": 1113,
+      "sha256": "e6d9a582d646758b7b2f89510f307f11893c674a2dd90747859d9e25898e99f3"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_published_procedure/clinicalbert_results.csv",
+      "bytes": 497,
+      "sha256": "e8a83691241d6d99560ac0c6035aa6180f02db5ab98950d67ae2cf72655f96b6"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_published_procedure/clinicalbert_results.json",
+      "bytes": 654,
+      "sha256": "daf832ec9c76b185a71ada46baad9c810962239026426c053dfd18b46b1071fb"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_published_procedure/clinicalbert_run_config.json",
+      "bytes": 992,
+      "sha256": "5a68a41c924db126dad0f4b8da53e98a18db1efc53ee779c59410a23e1595449"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_published_procedure/label_vocabulary.json",
+      "bytes": 630,
+      "sha256": "d2349794ffa002c1683d59b0a06744e647644951cc526c9e07a1a1a26e1fae29"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_published_procedure/training_history.csv",
+      "bytes": 158,
+      "sha256": "efc002b8aeaa8141be467d20fc9b5ad8037a571582c7a636a2d714ca7a663729"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/reproducibility/gpu_environment.txt",
+      "bytes": 1689,
+      "sha256": "1768c66f0a6ddb2990de187f21b945f91edd9ef0590c912bcba7759fc943aeba"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/reproducibility/requirements_ec2_lock.txt",
+      "bytes": 970,
+      "sha256": "4718ff7acf9ac1c8371aeec3b2aa524d3b3dc9350ef3291c2b5d43fb50e2e746"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/smoke_diagnosis/clinicalbert_per_label_metrics.csv",
+      "bytes": 1255,
+      "sha256": "037a382afd3779f3e1fa028986d47df116c777534b3cffa1e99e05255f9bb8f6"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/smoke_diagnosis/clinicalbert_results.csv",
+      "bytes": 629,
+      "sha256": "fb1445e02facb98b5c1432ca960152e0ecc23ce66c91eb3f8ca2d32a50a6de29"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/smoke_diagnosis/clinicalbert_results.json",
+      "bytes": 774,
+      "sha256": "d9fc3daa62bb024f53dbc2dd0cb399a0c780516f3ae629c4062f283cbf9aa0fa"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/smoke_diagnosis/clinicalbert_run_config.json",
+      "bytes": 931,
+      "sha256": "3b86fa79474cd380c3ca62de04bd8deb37fd0c2c71d71a225a3df4eca7c5793b"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/smoke_diagnosis/label_vocabulary.json",
+      "bytes": 364,
+      "sha256": "74b09787a43c98cdd315960de0b524b620ba536731876473fe26509e3a3f678c"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/smoke_diagnosis/training_history.csv",
+      "bytes": 109,
+      "sha256": "78824a9d0d3c6c5f800b5c539dbc579aea9ccad1f83d5fc95a01ea81a5f58b5f"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/smoke_diagnosis_v2/clinicalbert_per_label_metrics.csv",
+      "bytes": 1255,
+      "sha256": "037a382afd3779f3e1fa028986d47df116c777534b3cffa1e99e05255f9bb8f6"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/smoke_diagnosis_v2/clinicalbert_run_config.json",
+      "bytes": 1427,
+      "sha256": "da8cfd3a94f5784bee2f3d841b062dfb1ef0177074be5b51b8b9a5e634a90307"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/smoke_diagnosis_v2/label_vocabulary.json",
+      "bytes": 364,
+      "sha256": "74b09787a43c98cdd315960de0b524b620ba536731876473fe26509e3a3f678c"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/smoke_diagnosis_v2/training_history.csv",
+      "bytes": 109,
+      "sha256": "5de81d9dd0df9d5c10ab7b6d9e0327321e8c30fcdddbad0e169f5f79b5ecb9a9"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/smoke_diagnosis_v3/clinicalbert_per_label_metrics.csv",
+      "bytes": 1255,
+      "sha256": "037a382afd3779f3e1fa028986d47df116c777534b3cffa1e99e05255f9bb8f6"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/smoke_diagnosis_v3/clinicalbert_results.csv",
+      "bytes": 688,
+      "sha256": "63729d5f61fb21461429dca3bd7b23290fd2f10998fde07f0607ea9c5e12569a"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/smoke_diagnosis_v3/clinicalbert_results.json",
+      "bytes": 845,
+      "sha256": "2ee643dfec916314274fd6a560860801e3ce04efb460377aaa8197a07f97b882"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/smoke_diagnosis_v3/clinicalbert_run_config.json",
+      "bytes": 1427,
+      "sha256": "da8cfd3a94f5784bee2f3d841b062dfb1ef0177074be5b51b8b9a5e634a90307"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/smoke_diagnosis_v3/label_vocabulary.json",
+      "bytes": 364,
+      "sha256": "74b09787a43c98cdd315960de0b524b620ba536731876473fe26509e3a3f678c"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/clinicalbert/smoke_diagnosis_v3/training_history.csv",
+      "bytes": 109,
+      "sha256": "5de81d9dd0df9d5c10ab7b6d9e0327321e8c30fcdddbad0e169f5f79b5ecb9a9"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/cross_split_duplicates/cross_split_duplicate_details.csv",
+      "bytes": 8131,
+      "sha256": "1b33f79f33a0c5ba5d0af91d4d7178cf498e42b9d4e35ea656a73cb71aa6eb4d"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/cross_split_duplicates/cross_split_duplicate_report.json",
+      "bytes": 5105,
+      "sha256": "ab1fe194ef62b3a14072cd66fbd06945ae972d0dda8e4d46e91ed2d5731dc228"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/cross_split_duplicates/cross_split_duplicate_summary.csv",
+      "bytes": 936,
+      "sha256": "6d6adab89455c4cd6e82e18c025e399c84b302171d6d6770c3f502e184afcd56"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates/duplicate_report.json",
+      "bytes": 1000,
+      "sha256": "ebec9c2aee314aa0c312eec33df762fb1455134fc6085e084487c291c61f5824"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates/input_note_clusters.csv",
+      "bytes": 337,
+      "sha256": "0c08a694dc3d34979b0e02f8e4dc860c99256ec9b0473e055bb64f8497564fb2"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates/input_note_near_duplicate_pairs.csv",
+      "bytes": 598,
+      "sha256": "711bd1bcecca3fa18d0c52ae14f54c9eabaf46e908ebbeed62d4721767bfcd19"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates/llm_summary_note_clusters.csv",
+      "bytes": 26,
+      "sha256": "39eb32cf9fe210ac251131bc22d17bb7afd97d610d3d246f1ca33221123f44be"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates/llm_summary_note_near_duplicate_pairs.csv",
+      "bytes": 60,
+      "sha256": "0d58793a95ed0c1a5ab3df452932eb54cae2489c06ec72d095c514de93f9bc05"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates_0.80/duplicate_report.json",
+      "bytes": 999,
+      "sha256": "0824fd919c14a1ede82afa6c8d82a77263b97caec3dde491224a577829694abd"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates_0.80/input_note_clusters.csv",
+      "bytes": 896,
+      "sha256": "f18b75aec345ecbbee70e344e0b6301d21fdc3606ab7fe20a036e560811e0004"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates_0.80/input_note_near_duplicate_pairs.csv",
+      "bytes": 1542,
+      "sha256": "32a138ff71f5444942d3bee389ff5deaa8b57a1d0d2eeb5a8f60befca5f3a97e"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates_0.80/llm_summary_note_clusters.csv",
+      "bytes": 26,
+      "sha256": "39eb32cf9fe210ac251131bc22d17bb7afd97d610d3d246f1ca33221123f44be"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates_0.80/llm_summary_note_near_duplicate_pairs.csv",
+      "bytes": 60,
+      "sha256": "0d58793a95ed0c1a5ab3df452932eb54cae2489c06ec72d095c514de93f9bc05"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates_0.90/duplicate_report.json",
+      "bytes": 995,
+      "sha256": "7a9c0382250e079d6c2ae6b948db2bddbec991b1e63e568b891fe3d51ff9fe20"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates_0.90/input_note_clusters.csv",
+      "bytes": 54,
+      "sha256": "d7800a14b9f519979d1af6c4561d0ddefcf51fb0e59e7b6fc8587a20862f2229"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates_0.90/input_note_near_duplicate_pairs.csv",
+      "bytes": 106,
+      "sha256": "46f81c74820928c1b0a398c8268d58191ec7c54a27ed377a51c986a815539549"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates_0.90/llm_summary_note_clusters.csv",
+      "bytes": 26,
+      "sha256": "39eb32cf9fe210ac251131bc22d17bb7afd97d610d3d246f1ca33221123f44be"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates_0.90/llm_summary_note_near_duplicate_pairs.csv",
+      "bytes": 60,
+      "sha256": "0d58793a95ed0c1a5ab3df452932eb54cae2489c06ec72d095c514de93f9bc05"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates_0.95/duplicate_report.json",
+      "bytes": 996,
+      "sha256": "1f935c92604807590febf1e87ee13b3edafad453c42c94984f440e6dab72347b"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates_0.95/input_note_clusters.csv",
+      "bytes": 54,
+      "sha256": "d7800a14b9f519979d1af6c4561d0ddefcf51fb0e59e7b6fc8587a20862f2229"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates_0.95/input_note_near_duplicate_pairs.csv",
+      "bytes": 106,
+      "sha256": "46f81c74820928c1b0a398c8268d58191ec7c54a27ed377a51c986a815539549"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates_0.95/llm_summary_note_clusters.csv",
+      "bytes": 26,
+      "sha256": "39eb32cf9fe210ac251131bc22d17bb7afd97d610d3d246f1ca33221123f44be"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/duplicates_0.95/llm_summary_note_near_duplicate_pairs.csv",
+      "bytes": 60,
+      "sha256": "0d58793a95ed0c1a5ab3df452932eb54cae2489c06ec72d095c514de93f9bc05"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/label_vocabulary_audit/label_coverage_report.json",
+      "bytes": 4192,
+      "sha256": "128a70ae45c85a1a1f93c92a00d69b2d4ad3cd7db42c365978ba115e52c6ace5"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/label_vocabulary_audit/label_coverage_summary.csv",
+      "bytes": 845,
+      "sha256": "1b19a9d1264c042d7cac0d600d74ba7ed9e3d38e909b28a1d48c8e9f5000ee71"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/label_vocabulary_audit/label_frequency_by_partition.csv",
+      "bytes": 27566,
+      "sha256": "67b83246b8db39d7da19ed26668e7baaab8bb85d5e9ffab181dbf0832465c1f8"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/split_integrity.json",
+      "bytes": 564,
+      "sha256": "282d889d50be80737f11ddb7e96a761c718959d1d85560e4770c25d3a5667660"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/splits/prompt_disjoint.csv",
+      "bytes": 352058,
+      "sha256": "5daaa9285a29375e4347d6f85a42fcae52f248b6be22a6eb2aa2086cae96b958"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/splits/published_70_15_15.csv",
+      "bytes": 352015,
+      "sha256": "a5ef33641837c5456e2d38997ab11f7f335026f3b71daaaf15462fec21d8eb98"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/splits/split_report.json",
+      "bytes": 314,
+      "sha256": "c643120e403c73c310e6a5c5f2441d22f1d8c24339bc116cf81c975c5f3b7e0d"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/template_provenance/source_prompt_inventory.csv",
+      "bytes": 14156,
+      "sha256": "778aa7164a9721777f6a1cdcbed9e41f7e923988525eb98b17f3a851d4fc183d"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/outputs/template_provenance/template_provenance_report.json",
+      "bytes": 1311,
+      "sha256": "9fa7b43a341302897f86a731e4d1c2c6052a2f3e593838ba5a12301666b1294b"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/benchmark_audit/clinicalbert_file_inventory.json",
+      "bytes": 7398,
+      "sha256": "e5900a4f35a5ddc7f7eacf919bcc59a891efe62d8146b50095630b14323166b5"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/benchmark_audit/clinicalbert_zero_support_audit.json",
+      "bytes": 1122,
+      "sha256": "6ed015fbee460586b2d32023ab80c7903eeb56d4148bed59c385e1153404867b"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/generation_audit/clinicalbert_requirements_lock.txt",
+      "bytes": 970,
+      "sha256": "4718ff7acf9ac1c8371aeec3b2aa524d3b3dc9350ef3291c2b5d43fb50e2e746"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/generation_audit/kernel.txt",
+      "bytes": 121,
+      "sha256": "7a2ecc6e0c4a04e7cdcd9fdc7308cb833b1fe5cf398e9ed46775d16a54c6da7a"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/generation_audit/nvidia_gpu.txt",
+      "bytes": 1689,
+      "sha256": "5acef5849fbe265b95514de83c4babc3f609ef31666196e7fc2c6a470aa481ac"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/generation_audit/ollama_models.txt",
+      "bytes": 219,
+      "sha256": "73fd4e1e442bfbf447406cf5bd98702570af929bc1399c3ca7a27ecb32b07ba9"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/generation_audit/ollama_version.txt",
+      "bytes": 25,
+      "sha256": "b732b58e4c2ee7d8394d0bfdf0f9477877514c70d7740828b6bb6adb3329b35d"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/generation_audit/operating_system.txt",
+      "bytes": 400,
+      "sha256": "01af466feb100306498c86aa6bad1815e33036019aa34d4362c20f374ea5c829"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/generation_audit/python_version.txt",
+      "bytes": 14,
+      "sha256": "5b3e43dc38ca01e3f5a7854ba50d4330864b0c1e0f646650b2c78cf072acc366"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/label_template_audit/corrected_literal_code_exposure.json",
+      "bytes": 653,
+      "sha256": "408c3d1af4578e20d017fffbbea65a8c18875d16e0ea96a043c81612cf1852e3"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/label_template_audit/label_coverage_by_split.csv",
+      "bytes": 393,
+      "sha256": "80fce57d3ff5dae770ac54a8389db978fb0094e7ace5dfda35cb21e161583ada"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/label_template_audit/label_template_audit.json",
+      "bytes": 3513,
+      "sha256": "6aecedc152726e1122dcde425332ee33de77eb105783a70e52e9ca633ad71498"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/label_template_audit/scenario_family_by_split.csv",
+      "bytes": 881,
+      "sha256": "945532c0c85f2a0d223b36586b058bcbbea8a87c9e10ad189fe87bcd69bd45ef"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/benchmark_evidence_reconciliation.json",
+      "bytes": 2650,
+      "sha256": "1cf18fbec2debff34119f8a941399aec137750938cda146e905daede9b82a468"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/benchmark_scores_REPORTED_UNVERIFIED.csv",
+      "bytes": 814,
+      "sha256": "5d79c216f41fdbcb570fdf367a97595b72b495ada6fea66d6183c74fe93159ec"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/benchmark_scores_SOURCE_CSV_VERIFIED.csv",
+      "bytes": 850,
+      "sha256": "4255784535e7341b37e3bc79b5c8b6f2d7e2bb0c56b038c3747f51a5af490a77"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/draft_figures_tables/FIGURE_TABLE_README.txt",
+      "bytes": 762,
+      "sha256": "4074bd6a6eae28211b47d565a68781fdeb9ff1260b8a49eface4f71284aca2f2"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/draft_figures_tables/figure_benchmark_macro_f1.png",
+      "bytes": 94081,
+      "sha256": "a8ad19ac2ab300e647887415f8523aaf0b7f40155f41f9faf8981ca5265d4183"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/draft_figures_tables/figure_benchmark_macro_f1.svg",
+      "bytes": 36654,
+      "sha256": "526e2ee517f25b9b55e69686649a2455afdce58d3427d4dd8d6ac7455fff0a71"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/draft_figures_tables/figure_scenario_family_split.png",
+      "bytes": 136103,
+      "sha256": "651394bd47f8c80d6b1ba7610111d69ca88ad087543b922c80ad395e681d7c2b"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/draft_figures_tables/figure_scenario_family_split.svg",
+      "bytes": 47533,
+      "sha256": "bb779f0ee20ca6e199dbf62c5a527bd3ee45727ba4e6fb9cce721d4908a03fc0"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/draft_figures_tables/figure_split_degradation.png",
+      "bytes": 68725,
+      "sha256": "c2ae0f6c98ba28bc4da2e136e7ac7464ee32633d46ab581b6f1e61443f02d114"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/draft_figures_tables/figure_split_degradation.svg",
+      "bytes": 29362,
+      "sha256": "5f958aed32e73a2ad0a1baae4b42ca5484e731858f504d09487f643cbb43dd28"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/draft_figures_tables/table_benchmark_macro_f1.csv",
+      "bytes": 241,
+      "sha256": "47c92f93f9fcfab2e2af9cd629e49ea0a61ac7be75882f19bee92a7318a5a016"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/draft_figures_tables/table_split_difference_pp.csv",
+      "bytes": 347,
+      "sha256": "aceab7e42b5060ee46c288463b9df0fd2da96ade0f102b9631c6e417257d34b1"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/verified_figures_tables/FIGURE_TABLE_README.txt",
+      "bytes": 762,
+      "sha256": "a8fb72219b6dd86f99cab8651b7c8658bca00425fc135713e187806032749c80"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/verified_figures_tables/figure_benchmark_macro_f1.png",
+      "bytes": 94081,
+      "sha256": "a8ad19ac2ab300e647887415f8523aaf0b7f40155f41f9faf8981ca5265d4183"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/verified_figures_tables/figure_benchmark_macro_f1.svg",
+      "bytes": 36656,
+      "sha256": "5d4fed8cb0a290f412d5d843605326dbcf91a3dedef123c281652fa6d6395bf8"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/verified_figures_tables/figure_scenario_family_split.png",
+      "bytes": 136103,
+      "sha256": "651394bd47f8c80d6b1ba7610111d69ca88ad087543b922c80ad395e681d7c2b"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/verified_figures_tables/figure_scenario_family_split.svg",
+      "bytes": 47533,
+      "sha256": "d5e000b39bb7d3ca4bff7cdad265fceaa83adc15d24c5847639d5626cf34ffec"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/verified_figures_tables/figure_split_degradation.png",
+      "bytes": 68778,
+      "sha256": "24455daef9efb90e3bdaa67c2dd2aa7e13f0e4b2c743447fa5e82c3ee88ea133"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/verified_figures_tables/figure_split_degradation.svg",
+      "bytes": 29371,
+      "sha256": "b1081d7e0a9810eae8c43ee2a79a9cc44e892e7df1b5c3a6b73ad54afb99d4a2"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/verified_figures_tables/table_benchmark_macro_f1.csv",
+      "bytes": 241,
+      "sha256": "47c92f93f9fcfab2e2af9cd629e49ea0a61ac7be75882f19bee92a7318a5a016"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/paper_outputs/verified_figures_tables/table_split_difference_pp.csv",
+      "bytes": 347,
+      "sha256": "aceab7e42b5060ee46c288463b9df0fd2da96ade0f102b9631c6e417257d34b1"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/template_audit/cross_split_family_audit.json",
+      "bytes": 3925,
+      "sha256": "3ee3340d011ad21a7aa39c03aa084ea5bfb3650dfb1b132264e657700bfa7ccf"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/template_audit/cross_split_family_matrix.csv",
+      "bytes": 896,
+      "sha256": "abb26bf4a59ec55205e2889f6901d62ed21baadeff1e1e803f77ff0e8363b119"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/template_audit/dataset_zip_contents.txt",
+      "bytes": 392,
+      "sha256": "9c471838efce24b4d36277df00d66d811fd2e9d8523fc20a00177e18ec4ef526"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/template_audit/generation_family_audit.json",
+      "bytes": 1513,
+      "sha256": "cdc5f2613c09d3c0d12b7691883d23a5a8532219b8f6b2b7e5fb1912ccc7155d"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/template_audit/scenario_family_counts.csv",
+      "bytes": 243,
+      "sha256": "9ec43c31076ca081cfb046982b988aac6bee1f2d4fb8f3e901d5953573da82b8"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/final_evidence/template_audit/source_prompt_counts.csv",
+      "bytes": 4679,
+      "sha256": "4dc925ed0f8e255f9b5fefa5a9f71a2682770d2e018a869d8ce3718f018313c3"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/logs/full_prompt_disjoint_diagnosis.log",
+      "bytes": 646,
+      "sha256": "98cd39d6924c77b1426b1d0088d2a61f22d9f8c46a7d660d067e1236c828d922"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/logs/full_prompt_disjoint_procedure.log",
+      "bytes": 646,
+      "sha256": "77541c18295dd32f9a014db27d073944487c1b791aac8dae3e6978ac0e766aad"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/logs/full_published_diagnosis.log",
+      "bytes": 636,
+      "sha256": "b17109af3be5cbf6166f0ee60bcf8e05d4224c1d858c3a9a1c025eabbf0faf9f"
+    },
+    {
+      "path": "dental_nlp_benchmark_evaluation/logs/full_published_procedure.log",
+      "bytes": 636,
+      "sha256": "eca8e10162c91d7fa61cf44ab55329086ba3129dc6f1119599b48b248ecb6122"
+    }
+  ]
+}

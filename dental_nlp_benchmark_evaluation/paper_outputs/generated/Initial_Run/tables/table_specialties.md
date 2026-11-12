@@ -1,0 +1,10 @@
+| value | count |
+| --- | --- |
+| pediatric_dentistry | 4000 |
+| general_dentistry | 4000 |
+| implant_dentistry | 2000 |
+| oral_surgery | 2000 |
+| prosthodontics | 2000 |
+| restorative_dentistry | 2000 |
+| periodontics | 2000 |
+| endodontics | 2000 |

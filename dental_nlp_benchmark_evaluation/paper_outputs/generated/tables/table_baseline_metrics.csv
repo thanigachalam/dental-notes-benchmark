@@ -1,0 +1,9 @@
+split_manifest,task,model,n_train,n_validation,n_test,labels_train,unseen_test_labels,micro_precision,micro_recall,micro_f1,macro_precision,macro_recall,macro_f1,weighted_f1,samples_f1
+published_70_15_15.csv,diagnosis,rule,14000,3000,3000,49,0,0.79842,1.0,0.88791,0.89692,1.0,0.91763,0.95226,0.93108
+published_70_15_15.csv,diagnosis,tfidf,14000,3000,3000,49,0,1.0,0.99883,0.99942,1.0,0.99796,0.99893,0.99939,0.99867
+published_70_15_15.csv,procedure,rule,14000,3000,3000,31,0,0.84805,1.0,0.91778,0.94605,1.0,0.95842,0.95948,0.9234
+published_70_15_15.csv,procedure,tfidf,14000,3000,3000,31,0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+prompt_disjoint.csv,diagnosis,rule,13971,3012,3017,49,0,0.76628,1.0,0.86768,0.87134,0.95918,0.8894,0.94034,0.92491
+prompt_disjoint.csv,diagnosis,tfidf,13971,3012,3017,49,0,1.0,0.99769,0.99884,0.95918,0.95592,0.95741,0.99874,0.99735
+prompt_disjoint.csv,procedure,rule,13971,3012,3017,31,0,0.85695,1.0,0.92296,0.85417,0.90323,0.86784,0.9541,0.92797
+prompt_disjoint.csv,procedure,tfidf,13971,3012,3017,31,0,1.0,1.0,1.0,0.90323,0.90323,0.90323,1.0,1.0

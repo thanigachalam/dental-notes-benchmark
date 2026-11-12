@@ -1,0 +1,28 @@
+{
+  "generated_utc": "2026-10-31T01:09:16.079501+00:00",
+  "source_outputs_directory": "/Users/thani/Documents/DW/My_Research_Papers/DentalSummaryAI_Dataset/Final-1/ToUpload/dental_nlp_benchmark_evaluation/outputs",
+  "figures": [
+    "figure_allergies_sdoh_field_states",
+    "figure_specialty_distribution",
+    "figure_split_sizes",
+    "figure_prompt_group_overlap",
+    "figure_detected_near_duplicates",
+    "figure_baseline_macro_f1",
+    "figure_prompt_disjoint_change"
+  ],
+  "tables": [
+    "table_dataset_summary.csv",
+    "table_field_states.csv",
+    "table_specialties.csv",
+    "table_diagnoses_distribution.csv",
+    "table_procedures_distribution.csv",
+    "table_splits_distribution.csv",
+    "table_split_integrity.csv",
+    "table_duplicates_by_threshold.csv",
+    "table_baseline_metrics.csv",
+    "table_prompt_disjoint_changes.csv"
+  ],
+  "missing": [],
+  "warnings": [],
+  "methodology_warning": "MinHash-LSH candidate retrieval is approximate. Automated support checks do not imply clinical correctness. Results are based on synthetic labels."
+}

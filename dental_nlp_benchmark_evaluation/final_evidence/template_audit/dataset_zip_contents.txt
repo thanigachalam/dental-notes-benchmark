@@ -1,0 +1,7 @@
+Archive:  data/dentalnote_bench_20000_icd10_internalproc_v21.jsonl.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+115993763  2026-05-21 18:02   dentalnote_bench_20000_icd10_internalproc_v21.jsonl
+      176  2026-05-21 18:02   __MACOSX/._dentalnote_bench_20000_icd10_internalproc_v21.jsonl
+---------                     -------
+115993939                     2 files

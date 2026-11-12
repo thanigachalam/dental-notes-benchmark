@@ -1,0 +1,114 @@
+{
+  "n_records": 20000,
+  "fields": {
+    "id": "note_id",
+    "text": "input_note",
+    "diagnosis": "diagnoses",
+    "procedure": "procedures"
+  },
+  "strategies": {
+    "published": {
+      "partition_counts": {
+        "validation": 3000,
+        "train": 14000,
+        "test": 3000
+      },
+      "source_prompt_family_counts": 10,
+      "text_overlap": {
+        "train_vs_validation": {
+          "exact_input_text_shared_unique": 0,
+          "normalized_skeleton_shared_unique": 2
+        },
+        "train_vs_test": {
+          "exact_input_text_shared_unique": 0,
+          "normalized_skeleton_shared_unique": 1
+        },
+        "validation_vs_test": {
+          "exact_input_text_shared_unique": 0,
+          "normalized_skeleton_shared_unique": 0
+        }
+      },
+      "literal_code_mentions": {
+        "diagnosis_train": {
+          "matched_label_occurrences": 0,
+          "total_label_occurrences": 0
+        },
+        "diagnosis_validation": {
+          "matched_label_occurrences": 0,
+          "total_label_occurrences": 0
+        },
+        "diagnosis_test": {
+          "matched_label_occurrences": 0,
+          "total_label_occurrences": 0
+        },
+        "procedure_train": {
+          "matched_label_occurrences": 0,
+          "total_label_occurrences": 0
+        },
+        "procedure_validation": {
+          "matched_label_occurrences": 0,
+          "total_label_occurrences": 0
+        },
+        "procedure_test": {
+          "matched_label_occurrences": 0,
+          "total_label_occurrences": 0
+        }
+      }
+    },
+    "prompt_disjoint": {
+      "partition_counts": {
+        "validation": 3012,
+        "train": 13971,
+        "test": 3017
+      },
+      "source_prompt_family_counts": 10,
+      "text_overlap": {
+        "train_vs_validation": {
+          "exact_input_text_shared_unique": 0,
+          "normalized_skeleton_shared_unique": 2
+        },
+        "train_vs_test": {
+          "exact_input_text_shared_unique": 0,
+          "normalized_skeleton_shared_unique": 0
+        },
+        "validation_vs_test": {
+          "exact_input_text_shared_unique": 0,
+          "normalized_skeleton_shared_unique": 0
+        }
+      },
+      "literal_code_mentions": {
+        "diagnosis_train": {
+          "matched_label_occurrences": 0,
+          "total_label_occurrences": 0
+        },
+        "diagnosis_validation": {
+          "matched_label_occurrences": 0,
+          "total_label_occurrences": 0
+        },
+        "diagnosis_test": {
+          "matched_label_occurrences": 0,
+          "total_label_occurrences": 0
+        },
+        "procedure_train": {
+          "matched_label_occurrences": 0,
+          "total_label_occurrences": 0
+        },
+        "procedure_validation": {
+          "matched_label_occurrences": 0,
+          "total_label_occurrences": 0
+        },
+        "procedure_test": {
+          "matched_label_occurrences": 0,
+          "total_label_occurrences": 0
+        }
+      }
+    }
+  },
+  "caveats": [
+    "Skeleton uses simple numerical/code normalization and is NOT a verified generator template.",
+    "Exact label-code appearance in text is not a sufficient test for clinical leakage; target label words/synonyms may be present without a code.",
+    "Missing label field means code-mention and label-coverage analysis is unavailable for that task.",
+    "Scenario families are inferred from source_prompt_id suffixes; validation against generator code is required.",
+    "No real-note external generalization is tested."
+  ]
+}

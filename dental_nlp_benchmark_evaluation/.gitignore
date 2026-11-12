@@ -1,0 +1,7 @@
+/data/
+outputs/
+*.jsonl
+*.jsonl.zip
+__pycache__/
+.venv/
+.DS_Store

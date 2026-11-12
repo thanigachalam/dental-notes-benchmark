@@ -1,0 +1,58 @@
+{
+  "total_records": 20000,
+  "unique_source_prompt_ids": 120,
+  "unique_scenario_families": 10,
+  "missing_source_prompt_id": 0,
+  "generation_method_metadata_counts": {
+    "template_llm": 6707,
+    "template_rule_hybrid": 6659,
+    "hybrid_prompt_pipeline": 6634
+  },
+  "scenario_family_counts": {
+    "P_EMERG_ABSCESS": 2000,
+    "P_ENDO_CONSULT": 2000,
+    "P_HYGIENE_RECALL": 2000,
+    "P_IMPLANT_FU": 2000,
+    "P_ORALSURG_EXT": 2000,
+    "P_PED_RECALL": 2000,
+    "P_PED_TRAUMA": 2000,
+    "P_PERIO_MAINT": 2000,
+    "P_PROSTHO_CROWN": 2000,
+    "P_RESTORATIVE_CARIES": 2000
+  },
+  "split_manifest_schemas": {
+    "prompt_disjoint.csv": {
+      "columns": [
+        "note_id",
+        "split"
+      ],
+      "first_two_rows": [
+        {
+          "note_id": "DN_000001",
+          "split": "validation"
+        },
+        {
+          "note_id": "DN_000002",
+          "split": "train"
+        }
+      ]
+    },
+    "published_70_15_15.csv": {
+      "columns": [
+        "note_id",
+        "split"
+      ],
+      "first_two_rows": [
+        {
+          "note_id": "DN_000001",
+          "split": "validation"
+        },
+        {
+          "note_id": "DN_000002",
+          "split": "train"
+        }
+      ]
+    }
+  },
+  "methodological_note": "Scenario family is inferred by removing a trailing two-digit source-prompt suffix. This does not verify independently authored prompts or text templates. Generation-method metadata is descriptive and has not been verified against execution-level provenance."
+}

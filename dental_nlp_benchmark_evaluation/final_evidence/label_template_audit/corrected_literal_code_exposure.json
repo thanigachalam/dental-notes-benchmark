@@ -1,0 +1,21 @@
+{
+  "total_records": 20000,
+  "diagnosis": {
+    "records_with_labels": 20000,
+    "label_occurrences": 22928,
+    "records_with_code_match": 0
+  },
+  "procedure": {
+    "records_with_labels": 20000,
+    "label_occurrences": 78000,
+    "records_with_code_match": 0
+  },
+  "unique_diagnosis_codes": 49,
+  "unique_procedure_base_codes": 31,
+  "limitations": [
+    "Only literal target-code occurrences are measured.",
+    "Clinical terminology, synonyms, and scenario-specific wording may reveal labels without literal codes.",
+    "This check does not establish absence of target leakage.",
+    "Counts are based on unique target codes per record."
+  ]
+}

@@ -1,0 +1,4 @@
+| source_directory | field | threshold | metric | candidate_method | candidate_pairs | verified_near_duplicate_pairs | multi_record_clusters | cross_original_split_pairs | exact_duplicate_groups | approximate_retrieval |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| duplicates | input_note | 0.85 | word_4gram_jaccard | MinHashLSH | 1243 | 11 | 11 | 3 | 0 | True |
+| duplicates | llm_summary_note | 0.85 | word_4gram_jaccard | MinHashLSH | 0 | 0 | 0 | 0 | 0 | True |

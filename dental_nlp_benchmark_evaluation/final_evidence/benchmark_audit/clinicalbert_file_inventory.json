@@ -1,0 +1,302 @@
+{
+  "full_published_diagnosis": {
+    "folder_exists": true,
+    "files": [
+      {
+        "path": "clinicalbert_per_label_metrics.csv",
+        "bytes": 1279,
+        "columns": [
+          "label",
+          "test_support",
+          "train_seen",
+          "precision",
+          "recall",
+          "f1"
+        ],
+        "rows": 49
+      },
+      {
+        "path": "clinicalbert_results.csv",
+        "bytes": 497,
+        "columns": [
+          "split_manifest",
+          "task",
+          "model",
+          "n_train",
+          "n_validation",
+          "n_test",
+          "labels_train",
+          "unseen_test_labels",
+          "unseen_test_label_assignments",
+          "evaluation_label_count",
+          "selected_threshold",
+          "best_validation_micro_f1",
+          "smoke_test",
+          "micro_precision",
+          "micro_recall",
+          "micro_f1",
+          "macro_precision",
+          "macro_recall",
+          "macro_f1",
+          "weighted_precision",
+          "weighted_recall",
+          "weighted_f1",
+          "samples_precision",
+          "samples_recall",
+          "samples_f1"
+        ],
+        "rows": 1
+      },
+      {
+        "path": "clinicalbert_results.json",
+        "bytes": 654
+      },
+      {
+        "path": "clinicalbert_run_config.json",
+        "bytes": 992
+      },
+      {
+        "path": "label_vocabulary.json",
+        "bytes": 588
+      },
+      {
+        "path": "training_history.csv",
+        "bytes": 172,
+        "columns": [
+          "epoch",
+          "avg_train_loss",
+          "validation_micro_f1",
+          "validation_threshold"
+        ],
+        "rows": 3
+      }
+    ],
+    "log_complete": true,
+    "completion_line": "COMPLETE: dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_published_diagnosis test_macro_f1= 1.0 smoke_test= False"
+  },
+  "full_published_procedure": {
+    "folder_exists": true,
+    "files": [
+      {
+        "path": "clinicalbert_per_label_metrics.csv",
+        "bytes": 1113,
+        "columns": [
+          "label",
+          "test_support",
+          "train_seen",
+          "precision",
+          "recall",
+          "f1"
+        ],
+        "rows": 31
+      },
+      {
+        "path": "clinicalbert_results.csv",
+        "bytes": 497,
+        "columns": [
+          "split_manifest",
+          "task",
+          "model",
+          "n_train",
+          "n_validation",
+          "n_test",
+          "labels_train",
+          "unseen_test_labels",
+          "unseen_test_label_assignments",
+          "evaluation_label_count",
+          "selected_threshold",
+          "best_validation_micro_f1",
+          "smoke_test",
+          "micro_precision",
+          "micro_recall",
+          "micro_f1",
+          "macro_precision",
+          "macro_recall",
+          "macro_f1",
+          "weighted_precision",
+          "weighted_recall",
+          "weighted_f1",
+          "samples_precision",
+          "samples_recall",
+          "samples_f1"
+        ],
+        "rows": 1
+      },
+      {
+        "path": "clinicalbert_results.json",
+        "bytes": 654
+      },
+      {
+        "path": "clinicalbert_run_config.json",
+        "bytes": 992
+      },
+      {
+        "path": "label_vocabulary.json",
+        "bytes": 630
+      },
+      {
+        "path": "training_history.csv",
+        "bytes": 158,
+        "columns": [
+          "epoch",
+          "avg_train_loss",
+          "validation_micro_f1",
+          "validation_threshold"
+        ],
+        "rows": 3
+      }
+    ],
+    "log_complete": true,
+    "completion_line": "COMPLETE: dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_published_procedure test_macro_f1= 1.0 smoke_test= False"
+  },
+  "full_prompt_disjoint_diagnosis": {
+    "folder_exists": true,
+    "files": [
+      {
+        "path": "clinicalbert_per_label_metrics.csv",
+        "bytes": 1282,
+        "columns": [
+          "label",
+          "test_support",
+          "train_seen",
+          "precision",
+          "recall",
+          "f1"
+        ],
+        "rows": 49
+      },
+      {
+        "path": "clinicalbert_results.csv",
+        "bytes": 539,
+        "columns": [
+          "split_manifest",
+          "task",
+          "model",
+          "n_train",
+          "n_validation",
+          "n_test",
+          "labels_train",
+          "unseen_test_labels",
+          "unseen_test_label_assignments",
+          "evaluation_label_count",
+          "selected_threshold",
+          "best_validation_micro_f1",
+          "smoke_test",
+          "micro_precision",
+          "micro_recall",
+          "micro_f1",
+          "macro_precision",
+          "macro_recall",
+          "macro_f1",
+          "weighted_precision",
+          "weighted_recall",
+          "weighted_f1",
+          "samples_precision",
+          "samples_recall",
+          "samples_f1"
+        ],
+        "rows": 1
+      },
+      {
+        "path": "clinicalbert_results.json",
+        "bytes": 696
+      },
+      {
+        "path": "clinicalbert_run_config.json",
+        "bytes": 989
+      },
+      {
+        "path": "label_vocabulary.json",
+        "bytes": 588
+      },
+      {
+        "path": "training_history.csv",
+        "bytes": 173,
+        "columns": [
+          "epoch",
+          "avg_train_loss",
+          "validation_micro_f1",
+          "validation_threshold"
+        ],
+        "rows": 3
+      }
+    ],
+    "log_complete": true,
+    "completion_line": "COMPLETE: dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_prompt_disjoint_diagnosis test_macro_f1= 0.95918 smoke_test= False"
+  },
+  "full_prompt_disjoint_procedure": {
+    "folder_exists": true,
+    "files": [
+      {
+        "path": "clinicalbert_per_label_metrics.csv",
+        "bytes": 1106,
+        "columns": [
+          "label",
+          "test_support",
+          "train_seen",
+          "precision",
+          "recall",
+          "f1"
+        ],
+        "rows": 31
+      },
+      {
+        "path": "clinicalbert_results.csv",
+        "bytes": 539,
+        "columns": [
+          "split_manifest",
+          "task",
+          "model",
+          "n_train",
+          "n_validation",
+          "n_test",
+          "labels_train",
+          "unseen_test_labels",
+          "unseen_test_label_assignments",
+          "evaluation_label_count",
+          "selected_threshold",
+          "best_validation_micro_f1",
+          "smoke_test",
+          "micro_precision",
+          "micro_recall",
+          "micro_f1",
+          "macro_precision",
+          "macro_recall",
+          "macro_f1",
+          "weighted_precision",
+          "weighted_recall",
+          "weighted_f1",
+          "samples_precision",
+          "samples_recall",
+          "samples_f1"
+        ],
+        "rows": 1
+      },
+      {
+        "path": "clinicalbert_results.json",
+        "bytes": 696
+      },
+      {
+        "path": "clinicalbert_run_config.json",
+        "bytes": 989
+      },
+      {
+        "path": "label_vocabulary.json",
+        "bytes": 630
+      },
+      {
+        "path": "training_history.csv",
+        "bytes": 160,
+        "columns": [
+          "epoch",
+          "avg_train_loss",
+          "validation_micro_f1",
+          "validation_threshold"
+        ],
+        "rows": 3
+      }
+    ],
+    "log_complete": true,
+    "completion_line": "COMPLETE: dental_nlp_benchmark_evaluation/outputs/clinicalbert/full_prompt_disjoint_procedure test_macro_f1= 0.90323 smoke_test= False"
+  }
+}

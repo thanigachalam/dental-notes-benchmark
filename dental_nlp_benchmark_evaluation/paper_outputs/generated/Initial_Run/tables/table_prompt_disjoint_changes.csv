@@ -1,0 +1,5 @@
+task,model,published_macro_f1,prompt_disjoint_macro_f1,decrease_percentage_points
+diagnosis,rule,0.91763,0.8894,2.823
+diagnosis,tfidf,0.99893,0.95741,4.152
+procedure,rule,0.95842,0.86784,9.058
+procedure,tfidf,1.0,0.90323,9.677

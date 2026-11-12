@@ -1,0 +1,4 @@
+# Additional dependencies; install after requirements.txt in Python 3.11 virtual environment
+# Pin exact resolved versions using pip freeze after a successful run.
+torch>=2.2,<3
+transformers>=4.40,<5

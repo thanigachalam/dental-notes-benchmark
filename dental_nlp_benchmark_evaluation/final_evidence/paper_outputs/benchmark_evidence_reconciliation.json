@@ -1,0 +1,110 @@
+[
+  {
+    "task": "Diagnosis",
+    "split": "Prompt-ID-disjoint",
+    "model": "ClinicalBERT",
+    "reported_macro_f1": 0.95918,
+    "source_macro_f1": 0.9591836734693877,
+    "absolute_difference": 3.6734693876772084e-06,
+    "match_5_decimals": true
+  },
+  {
+    "task": "Diagnosis",
+    "split": "Prompt-ID-disjoint",
+    "model": "Rule-based",
+    "reported_macro_f1": 0.8894,
+    "source_macro_f1": 0.8894,
+    "absolute_difference": 0.0,
+    "match_5_decimals": true
+  },
+  {
+    "task": "Diagnosis",
+    "split": "Prompt-ID-disjoint",
+    "model": "TF-IDF",
+    "reported_macro_f1": 0.95741,
+    "source_macro_f1": 0.95741,
+    "absolute_difference": 0.0,
+    "match_5_decimals": true
+  },
+  {
+    "task": "Diagnosis",
+    "split": "Published",
+    "model": "ClinicalBERT",
+    "reported_macro_f1": 1.0,
+    "source_macro_f1": 1.0,
+    "absolute_difference": 0.0,
+    "match_5_decimals": true
+  },
+  {
+    "task": "Diagnosis",
+    "split": "Published",
+    "model": "Rule-based",
+    "reported_macro_f1": 0.91763,
+    "source_macro_f1": 0.91763,
+    "absolute_difference": 0.0,
+    "match_5_decimals": true
+  },
+  {
+    "task": "Diagnosis",
+    "split": "Published",
+    "model": "TF-IDF",
+    "reported_macro_f1": 0.99893,
+    "source_macro_f1": 0.99893,
+    "absolute_difference": 0.0,
+    "match_5_decimals": true
+  },
+  {
+    "task": "Procedure",
+    "split": "Prompt-ID-disjoint",
+    "model": "ClinicalBERT",
+    "reported_macro_f1": 0.90323,
+    "source_macro_f1": 0.9032258064516129,
+    "absolute_difference": 4.1935483870991774e-06,
+    "match_5_decimals": true
+  },
+  {
+    "task": "Procedure",
+    "split": "Prompt-ID-disjoint",
+    "model": "Rule-based",
+    "reported_macro_f1": 0.86784,
+    "source_macro_f1": 0.86784,
+    "absolute_difference": 0.0,
+    "match_5_decimals": true
+  },
+  {
+    "task": "Procedure",
+    "split": "Prompt-ID-disjoint",
+    "model": "TF-IDF",
+    "reported_macro_f1": 0.90323,
+    "source_macro_f1": 0.90323,
+    "absolute_difference": 0.0,
+    "match_5_decimals": true
+  },
+  {
+    "task": "Procedure",
+    "split": "Published",
+    "model": "ClinicalBERT",
+    "reported_macro_f1": 1.0,
+    "source_macro_f1": 1.0,
+    "absolute_difference": 0.0,
+    "match_5_decimals": true
+  },
+  {
+    "task": "Procedure",
+    "split": "Published",
+    "model": "Rule-based",
+    "reported_macro_f1": 0.95842,
+    "source_macro_f1": 0.95842,
+    "absolute_difference": 0.0,
+    "match_5_decimals": true
+  },
+  {
+    "task": "Procedure",
+    "split": "Published",
+    "model": "TF-IDF",
+    "reported_macro_f1": 1.0,
+    "source_macro_f1": 1.0,
+    "absolute_difference": 0.0,
+    "match_5_decimals": true
+  }
+]

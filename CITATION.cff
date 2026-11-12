@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+title: "dental-notes-benchmark: A Synthetic Benchmark Dataset for Dental Clinical Note Extraction and Summarization"
+message: "If you use this dataset or repository, please cite it using the metadata below."
+type: dataset
+authors:
+  - family-names: "Tamizh Selvam"
+    given-names: "Thanigachalam"
+    affiliation: "Independent Researcher"
+    email: "thanigachalamtamizhselvam@gmail.com"
+identifiers:
+  - type: url
+    value: "https://github.com/thanigachalam/dental-notes-benchmark"
+repository-code: "https://github.com/thanigachalam/dental-notes-benchmark"
+abstract: >-
+  dental-notes-benchmark is an open synthetic benchmark dataset for dental clinical
+  note extraction and summarization. It includes multi-specialty synthetic dental
+  encounter notes with ICD-10-CM diagnosis mappings, open internal procedure codes,
+  tooth-level structured annotations, and summary targets for reproducible dental NLP
+  research.
+keywords:
+  - dental NLP
+  - clinical NLP
+  - synthetic data
+  - dental informatics
+  - benchmark dataset
+  - summarization
+  - entity extraction
+  - ICD-10-CM
+license: "CC-BY-4.0 AND MIT"
+version: "v2.0"
+date-released: 2026-03-14
+preferred-citation:
+  type: dataset
+  authors:
+    - family-names: "Tamizh Selvam"
+      given-names: "Thanigachalam"
+      affiliation: "Independent Researcher"
+  title: "dental-notes-benchmark: A Synthetic Benchmark Dataset for Dental Clinical Note Extraction and Summarization"
+  version: "v2.0"
+  year: 2026
+  publisher: "GitHub / Zenodo / IEEE DataPort"
+  url: "https://github.com/thanigachalam/dental-notes-benchmark"

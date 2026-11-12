@@ -1,0 +1,9 @@
+strategy,task,split,n_train_labels,n_split_labels,n_unseen_labels,unseen_labels
+published,diagnosis,validation,0,0,0,
+published,diagnosis,test,0,0,0,
+published,procedure,validation,0,0,0,
+published,procedure,test,0,0,0,
+prompt_disjoint,diagnosis,validation,0,0,0,
+prompt_disjoint,diagnosis,test,0,0,0,
+prompt_disjoint,procedure,validation,0,0,0,
+prompt_disjoint,procedure,test,0,0,0,

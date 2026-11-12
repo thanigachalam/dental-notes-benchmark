@@ -1,0 +1,45 @@
+[
+  {
+    "run": "full_published_diagnosis",
+    "total_labels": 49,
+    "zero_test_support_labels": [],
+    "imperfect_supported_labels": [],
+    "reported_macro_f1": 1.0,
+    "reported_micro_f1": 1.0,
+    "supported_label_macro_f1": 1.0
+  },
+  {
+    "run": "full_published_procedure",
+    "total_labels": 31,
+    "zero_test_support_labels": [],
+    "imperfect_supported_labels": [],
+    "reported_macro_f1": 1.0,
+    "reported_micro_f1": 1.0,
+    "supported_label_macro_f1": 1.0
+  },
+  {
+    "run": "full_prompt_disjoint_diagnosis",
+    "total_labels": 49,
+    "zero_test_support_labels": [
+      "K12.2",
+      "L03.90"
+    ],
+    "imperfect_supported_labels": [],
+    "reported_macro_f1": 0.9591836734693877,
+    "reported_micro_f1": 1.0,
+    "supported_label_macro_f1": 1.0
+  },
+  {
+    "run": "full_prompt_disjoint_procedure",
+    "total_labels": 31,
+    "zero_test_support_labels": [
+      "PROC_EMERG_EVAL",
+      "PROC_I_AND_D",
+      "PROC_PRESCRIBE"
+    ],
+    "imperfect_supported_labels": [],
+    "reported_macro_f1": 0.9032258064516129,
+    "reported_micro_f1": 1.0,
+    "supported_label_macro_f1": 1.0
+  }
+]
