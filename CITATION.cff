@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "dental-notes-benchmark: A Synthetic Benchmark Dataset for Dental Clinical Note Extraction and Summarization"
+title: "Synthetic Dental Clinical Notes Dataset for Dental NLP Benchmarking (SDCN-DNLP)"
 message: "If you use this dataset or repository, please cite it using the metadata below."
 type: dataset
 authors:
@@ -35,7 +35,7 @@ preferred-citation:
     - family-names: "Tamizh Selvam"
       given-names: "Thanigachalam"
       affiliation: "Independent Researcher"
-  title: "dental-notes-benchmark: A Synthetic Benchmark Dataset for Dental Clinical Note Extraction and Summarization"
+  title: "Synthetic Dental Clinical Notes Dataset for Dental NLP Benchmarking (SDCN-DNLP)"
   version: "v2.0"
   year: 2026
   publisher: "GitHub / Zenodo / IEEE DataPort"

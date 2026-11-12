@@ -4,7 +4,7 @@
 [![Format](https://img.shields.io/badge/format-JSONL-green)](#data-format)
 [![Diagnosis](https://img.shields.io/badge/diagnosis-ICD--10--CM-orange)](#coding-strategy)
 [![Procedures](https://img.shields.io/badge/procedures-open_internal_codes-purple)](#coding-strategy)
-[![License](https://img.shields.io/badge/license-CC_BY_4.0)](#license)
+
 
 **dental-notes-benchmark** is an open synthetic benchmark dataset for **dental clinical note extraction and summarization**. It provides multi-specialty synthetic dental encounter notes with **ICD-10-CM diagnosis mappings**, **open internal procedure codes**, **tooth-level structured annotations**, and **summary targets** for reproducible dental NLP research.
 
