@@ -50,6 +50,7 @@ The design emphasizes:
   - 1,000 train
   - 500 validation
   - 500 test
+- **Predefined benchmark subset:** 2,000 records (1,000 train / 500 validation / 500 test)
 - **Diagnosis coding:** ICD-10-CM
 - **Procedure coding:** `DPO_INTERNAL_V1` (open internal procedure ontology)
 - **Structured detail:** tooth-level findings, surfaces, risk factors, medications, follow-up, and periodontal metrics
@@ -226,7 +227,8 @@ Examples of quality controls include:
 - structured field consistency checks
 - split stratification
 - note-style variability
-- expert-reviewed subset construction
+- predefined benchmark subset construction (2,000 records; 1,000 training, 500 validation, 500 test)
+The predefined 2,000-record subset is a research benchmark subset and should not be interpreted as an independently clinician-reviewed cohort. The `annotator_type` metadata was assigned programmatically and does not establish human clinical adjudication. Independent dentist assessments are documented separately.
 - diagnosis normalization through ICD-10-CM
 - open procedure code definitions for reproducible modeling
 
@@ -306,8 +308,8 @@ print(df.shape)
 
 ## License
 
-This repository uses a **dual-license model**:
-- **Dataset, Code, Script and documentation:** CC BY 4.0
+This repository uses a **license model**:
+- **This repository, including its dataset, source code, scripts, and documentation, is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License.** CC BY 4.0
 
 See the [`LICENSE`](LICENSE) file for details.
 
@@ -325,8 +327,9 @@ If you use this dataset, please cite:
   title        = {dental-notes-benchmark: A Synthetic Benchmark Dataset for Dental Clinical Note Extraction and Summarization},
   year         = {2026},
   version      = {v2.0},
-  publisher    = {GitHub / Zenodo / IEEE DataPort},
+  publisher    = {GitHub / IEEE DataPort},
   url          = {https://github.com/thanigachalam/dental-notes-benchmark}
+  DOI          = 10.21227/tt32-vp70
 }
 ```
 
