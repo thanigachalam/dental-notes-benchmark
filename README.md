@@ -47,7 +47,6 @@ The design emphasizes:
 - **Train split:** 14,000
 - **Validation split:** 3,000
 - **Test split:** 3,000
-- **Expert-reviewed subset:** 2,000
   - 1,000 train
   - 500 validation
   - 500 test
